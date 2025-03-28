@@ -18,8 +18,8 @@ TXT2MD is an intelligent text file conversion tool that leverages Google's Gemin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/txt2md.git
-cd txt2md
+git clone https://github.com/l10kai/TXT2MD---Intelligent-Text-to-Markdown-Converter.git
+cd TXT2MD---Intelligent-Text-to-Markdown-Converter
 ```
 
 2. Install the required dependencies:
@@ -122,8 +122,8 @@ TXT2MD是一个智能文本文件转换工具，利用Google的Gemini AI将纯�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/txt2md.git
-cd txt2md
+git clone https://github.com/l10kai/TXT2MD---Intelligent-Text-to-Markdown-Converter.git
+cd TXT2MD---Intelligent-Text-to-Markdown-Converter
 ```
 
 2. 安装所需依赖：
