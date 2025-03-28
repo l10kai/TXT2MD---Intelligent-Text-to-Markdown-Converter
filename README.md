@@ -12,6 +12,7 @@ TXT2MD is an intelligent text file conversion tool that leverages Google's Gemin
 - Batch processes multiple files in a folder
 - Optional removal of original text files after conversion
 - Built-in retry mechanism for API rate limiting
+- Internationalization support with English and Chinese interfaces
 
 ## Installation
 
@@ -59,8 +60,15 @@ python txt_to_md.py
 ```
 
 The program will ask for:
-1. The folder path to process (with a default suggestion)
-2. Whether to delete original files after conversion
+1. Language selection (English or Chinese)
+2. The folder path to process (with a default suggestion)
+3. Whether to delete original files after conversion
+
+## Customizing Prompts
+
+You can customize the AI conversion prompts by modifying the `prompt_templates.py` file. The default prompt instructs the AI to convert plain text to well-structured Markdown format.
+
+To modify the internationalization messages, edit the `i18n.py` file which contains all user interface text in both English and Chinese.
 
 ## Dependencies
 
@@ -108,6 +116,7 @@ TXT2MD是一个智能文本文件转换工具，利用Google的Gemini AI将纯�
 - 批量处理文件夹中的多个文件
 - 可选择在转换后删除原始文本文件
 - 内置API访问限制的重试机制
+- 国际化支持，提供英文和中文界面
 
 ## 安装
 
@@ -155,8 +164,15 @@ python txt_to_md.py
 ```
 
 程序将询问：
-1. 要处理的文件夹路径（带有默认建议）
-2. 转换后是否删除原始文件
+1. 语言选择（英文或中文）
+2. 要处理的文件夹路径（带有默认建议）
+3. 转换后是否删除原始文件
+
+## 自定义提示词
+
+您可以通过修改 `prompt_templates.py` 文件来自定义AI转换提示词。默认提示词指导AI将纯文本转换为结构良好的Markdown格式。
+
+要修改国际化消息，请编辑 `i18n.py` 文件，其中包含英文和中文两种语言的所有用户界面文本。
 
 ## 依赖项
 

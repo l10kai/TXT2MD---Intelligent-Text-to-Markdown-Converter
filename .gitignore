@@ -34,3 +34,11 @@
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project specific
+text_folder/
