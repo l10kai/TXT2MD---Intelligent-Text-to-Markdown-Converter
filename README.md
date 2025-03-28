@@ -30,6 +30,12 @@ pip install -r requirements.txt
 
 > **IMPORTANT:** This project requires a Google Gemini API key. You can apply for one at [Google AI Studio](https://aistudio.google.com/). Support for additional APIs may be added in future updates.
 
+4. Test your API connection:
+```bash
+python test_api.py
+```
+If successful, you'll see a sample AI response, confirming that your API key is correctly configured.
+
 ## Usage
 
 ### Command Line Interface
@@ -119,6 +125,12 @@ pip install -r requirements.txt
 3. 在`config.py`中配置您的Google Gemini API密钥
 
 > **重要说明：** 本项目需要自备Google Gemini API密钥，可在 [Google AI Studio](https://aistudio.google.com/) 上申请。后续可能会更新支持其他API。
+
+4. 测试API连接：
+```bash
+python test_api.py
+```
+如果成功，您将看到一个示例AI响应，确认您的API密钥已正确配置。
 
 ## 使用方法
 
